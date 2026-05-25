@@ -3,7 +3,7 @@ import random
 
 def play_hangman():
     # 1. Use a small list of 5 predefined words
-    word_list = ["python", "variable", "function", "syntax", "boolean"]
+    word_list = ["mirror", "crochet", "football", "bolling", "apple"]
 
     # 2. Key Concept: random (to choose a word)
     secret_word = random.choice(word_list)
